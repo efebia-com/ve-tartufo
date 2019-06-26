@@ -17,7 +17,7 @@ const { compile, deploy } = require('ve-tartufo');
 ### How to use it:
 
 ```js
-const { Web3, compile, deploy } = require("ve-tartufo");
+const { init, compile, deploy } = require("ve-tartufo");
 //remember to use our Web3, because Thor suggest version of web3 is the "1.0.0-beta.37"
 
 const main = async _ => {
@@ -28,7 +28,7 @@ const main = async _ => {
 
         //connect to your local VeChain
         const blockchainURL = "http://localhost:8669";
-        const web3 = thorify(new Web3(), blockchainURL);
+        const web3 = init(blockchainURL);
 
         //add one of the 10 wallets available
         const privateKey = "0xdce1443bd2ef0c2631adc1c67e5c93f13dc23a41c18b536effbbdcbcdb96fb65";
