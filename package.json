@@ -1,0 +1,30 @@
+{
+  "name": "ve-tartufo",
+  "version": "1.0.0",
+  "description": "An italian version of truffle made for VeChain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efebia-com/ve-chain.git"
+  },
+  "keywords": [
+    "solidity",
+    "VeChain",
+    "compile",
+    "deploy"
+  ],
+  "author": "Efebia",
+  "license": "MIT",
+  "dependencies": {
+    "solc": "0.5.1",
+    "thorify": "^1.1.1",
+    "web3": "1.0.0-beta.37"
+  },
+  "bugs": {
+    "url": "https://github.com/efebia-com/ve-tartufo/issues"
+  },
+  "homepage": "https://github.com/efebia-com/ve-tartufo#readme"
+}
